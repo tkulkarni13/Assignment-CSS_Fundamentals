@@ -1,0 +1,40 @@
+/* Task 2: Make button stand out */
+#button1:hover {
+    background-color: cyan;
+    transition-duration: 0.5s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#button1 {
+    background-color: lightcoral;
+    font-size: 56px;
+    border-radius: 8px;
+}
+
+h1 {
+    color: black;
+    font-size: 32px;
+}
+
+form {
+    line-height: 1.6;
+    border: 2px solid black;
+}
+
+label {
+    display: block;
+    font-size: 24px;
+    color: darkmagenta;
+    text-decoration: underline;
+}
+
+textarea {
+    width: 312px;
+    height: 128px;
+}
+
+#button2 {
+    display: block;
+    font-size: 16px;
+    border-radius: 8px;
+}
